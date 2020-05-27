@@ -107,7 +107,6 @@ void Tablica::modyfikujKomorke(int wyb_kolumna, int wyb_wiersz, string nowa_zawa
 void Tablica::modyfikujRozmiar(int nowy_kolumny, int nowy_wiersze)
 {	
 	Tablica* nowy = new Tablica(nowy_kolumny, nowy_wiersze);
-//wypełenienie
 	int kolumny = liczba_kolumn;
 	int wiersze = liczba_wierszy;
 	if (nowy_kolumny < liczba_kolumn)
